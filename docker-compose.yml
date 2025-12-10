@@ -1,0 +1,44 @@
+# Evacuation Routing System - Docker Compose
+# Run with: docker-compose up --build
+
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: evac-route-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - SERVER_PORT=8080
+      - ROADS_GEOJSON_PATH=data/roads.geojson
+      - FLOODS_GEOJSON_PATH=data/flood_zones.geojson
+    volumes:
+      # Mount data directory for easy updates without rebuild
+      - ./data:/app/data:ro
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost:8080/api/evac/health" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: evac-route-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped
+
+# Optionally, add a named network for better isolation
+networks:
+  default:
+    name: evac-route-network

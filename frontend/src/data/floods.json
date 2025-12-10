@@ -1,0 +1,104 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Flood Zone A"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            21.009,
+                            52.2265
+                        ],
+                        [
+                            21.016,
+                            52.2265
+                        ],
+                        [
+                            21.016,
+                            52.2295
+                        ],
+                        [
+                            21.009,
+                            52.2295
+                        ],
+                        [
+                            21.009,
+                            52.2265
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Flood Zone B"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            21.02,
+                            52.222
+                        ],
+                        [
+                            21.025,
+                            52.222
+                        ],
+                        [
+                            21.025,
+                            52.227
+                        ],
+                        [
+                            21.02,
+                            52.227
+                        ],
+                        [
+                            21.02,
+                            52.222
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Flood Zone C"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            21.013,
+                            52.2325
+                        ],
+                        [
+                            21.017,
+                            52.2325
+                        ],
+                        [
+                            21.017,
+                            52.2355
+                        ],
+                        [
+                            21.013,
+                            52.2355
+                        ],
+                        [
+                            21.013,
+                            52.2325
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

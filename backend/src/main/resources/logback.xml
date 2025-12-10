@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- Console appender with a clean pattern for development -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Distinct loggers as required by the spec -->
+    
+    <!-- Data loading operations -->
+    <logger name="com.sensorbite.evacroute.geo" level="DEBUG"/>
+    
+    <!-- Routing computations -->
+    <logger name="com.sensorbite.evacroute.routing" level="DEBUG"/>
+    
+    <!-- External service calls (Sentinel Hub mock, etc.) -->
+    <logger name="com.sensorbite.evacroute.client" level="INFO"/>
+    
+    <!-- General application logging -->
+    <logger name="com.sensorbite.evacroute" level="INFO"/>
+    
+    <!-- Quiet down noisy frameworks -->
+    <logger name="org.eclipse.jetty" level="WARN"/>
+    <logger name="org.jboss.resteasy" level="WARN"/>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+</configuration>

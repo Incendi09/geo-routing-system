@@ -1,0 +1,111 @@
+{
+    "type": "FeatureCollection",
+    "name": "sample_flood_zones",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Flood Zone A - Central",
+                "severity": "high",
+                "description": "Simulated flooding near plac Konstytucji"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            21.0090,
+                            52.2265
+                        ],
+                        [
+                            21.0160,
+                            52.2265
+                        ],
+                        [
+                            21.0160,
+                            52.2295
+                        ],
+                        [
+                            21.0090,
+                            52.2295
+                        ],
+                        [
+                            21.0090,
+                            52.2265
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Flood Zone B - Eastern",
+                "severity": "medium",
+                "description": "Simulated flooding near ul. Mokotowska"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            21.0200,
+                            52.2220
+                        ],
+                        [
+                            21.0250,
+                            52.2220
+                        ],
+                        [
+                            21.0250,
+                            52.2270
+                        ],
+                        [
+                            21.0200,
+                            52.2270
+                        ],
+                        [
+                            21.0200,
+                            52.2220
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Flood Zone C - Northern",
+                "severity": "low",
+                "description": "Minor flooding near ul. Świętokrzyska intersection"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            21.0130,
+                            52.2325
+                        ],
+                        [
+                            21.0170,
+                            52.2325
+                        ],
+                        [
+                            21.0170,
+                            52.2355
+                        ],
+                        [
+                            21.0130,
+                            52.2355
+                        ],
+                        [
+                            21.0130,
+                            52.2325
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

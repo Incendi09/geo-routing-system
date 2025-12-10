@@ -1,0 +1,55 @@
+{
+    "app": {
+        "title": "Evac Route",
+        "subtitle": "Bezpieczne Trasowanie Ewakuacji"
+    },
+    "nav": {
+        "home": "Strona główna",
+        "about": "O aplikacji"
+    },
+    "form": {
+        "title": "Planowanie Trasy",
+        "start": "Punkt startowy",
+        "startPlaceholder": "52.23, 21.01",
+        "end": "Punkt końcowy",
+        "endPlaceholder": "52.24, 21.02",
+        "calculate": "Oblicz trasę",
+        "calculating": "Obliczanie...",
+        "errors": {
+            "required": "To pole jest wymagane",
+            "invalidFormat": "Użyj formatu: szer, dł (np. 52.23, 21.01)"
+        }
+    },
+    "route": {
+        "title": "Informacje o trasie",
+        "distance": "Dystans",
+        "nodes": "Punkty trasy",
+        "computeTime": "Czas obliczeń",
+        "riskScore": "Wskaźnik ryzyka",
+        "hazardAvoided": "Ominięte zagrożenia",
+        "hazardTraversed": "Przecięte zagrożenia",
+        "noRoute": "Brak obliczonej trasy",
+        "safe": "Bezpieczna",
+        "risky": "Ryzykowna",
+        "moderate": "Umiarkowana"
+    },
+    "map": {
+        "title": "Widok mapy",
+        "layers": {
+            "roads": "Sieć drogowa",
+            "floods": "Strefy zalewowe",
+            "route": "Obliczona trasa"
+        }
+    },
+    "error": {
+        "title": "Błąd",
+        "noRoute": "Nie znaleziono trasy między tymi punktami",
+        "serverError": "Błąd serwera. Spróbuj ponownie.",
+        "networkError": "Błąd sieci. Sprawdź połączenie."
+    },
+    "language": {
+        "switch": "Język",
+        "en": "English",
+        "pl": "Polski"
+    }
+}

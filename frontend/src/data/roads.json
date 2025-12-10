@@ -1,0 +1,199 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Marszałkowska"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.01,
+                        52.23
+                    ],
+                    [
+                        21.012,
+                        52.232
+                    ],
+                    [
+                        21.014,
+                        52.234
+                    ],
+                    [
+                        21.016,
+                        52.236
+                    ],
+                    [
+                        21.018,
+                        52.238
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Świętokrzyska"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.005,
+                        52.234
+                    ],
+                    [
+                        21.01,
+                        52.234
+                    ],
+                    [
+                        21.014,
+                        52.234
+                    ],
+                    [
+                        21.018,
+                        52.234
+                    ],
+                    [
+                        21.022,
+                        52.234
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Nowy Świat"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.02,
+                        52.225
+                    ],
+                    [
+                        21.019,
+                        52.228
+                    ],
+                    [
+                        21.018,
+                        52.231
+                    ],
+                    [
+                        21.018,
+                        52.234
+                    ],
+                    [
+                        21.018,
+                        52.238
+                    ],
+                    [
+                        21.018,
+                        52.242
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Al. Jerozolimskie"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0,
+                        52.228
+                    ],
+                    [
+                        21.005,
+                        52.228
+                    ],
+                    [
+                        21.01,
+                        52.228
+                    ],
+                    [
+                        21.015,
+                        52.228
+                    ],
+                    [
+                        21.02,
+                        52.228
+                    ],
+                    [
+                        21.025,
+                        52.228
+                    ],
+                    [
+                        21.03,
+                        52.228
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Mokotowska"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.022,
+                        52.22
+                    ],
+                    [
+                        21.022,
+                        52.225
+                    ],
+                    [
+                        21.022,
+                        52.23
+                    ],
+                    [
+                        21.022,
+                        52.234
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Emilii Plater"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.005,
+                        52.22
+                    ],
+                    [
+                        21.005,
+                        52.224
+                    ],
+                    [
+                        21.005,
+                        52.228
+                    ],
+                    [
+                        21.005,
+                        52.234
+                    ],
+                    [
+                        21.005,
+                        52.24
+                    ]
+                ]
+            }
+        }
+    ]
+}

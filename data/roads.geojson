@@ -1,0 +1,490 @@
+{
+    "type": "FeatureCollection",
+    "name": "sample_road_network",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Marszałkowska",
+                "highway": "primary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0100,
+                        52.2300
+                    ],
+                    [
+                        21.0120,
+                        52.2320
+                    ],
+                    [
+                        21.0140,
+                        52.2340
+                    ],
+                    [
+                        21.0160,
+                        52.2360
+                    ],
+                    [
+                        21.0180,
+                        52.2380
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Świętokrzyska",
+                "highway": "secondary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0050,
+                        52.2340
+                    ],
+                    [
+                        21.0100,
+                        52.2340
+                    ],
+                    [
+                        21.0140,
+                        52.2340
+                    ],
+                    [
+                        21.0180,
+                        52.2340
+                    ],
+                    [
+                        21.0220,
+                        52.2340
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Nowy Świat",
+                "highway": "primary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0200,
+                        52.2250
+                    ],
+                    [
+                        21.0190,
+                        52.2280
+                    ],
+                    [
+                        21.0180,
+                        52.2310
+                    ],
+                    [
+                        21.0180,
+                        52.2340
+                    ],
+                    [
+                        21.0180,
+                        52.2380
+                    ],
+                    [
+                        21.0180,
+                        52.2420
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Aleje Jerozolimskie",
+                "highway": "primary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0000,
+                        52.2280
+                    ],
+                    [
+                        21.0050,
+                        52.2280
+                    ],
+                    [
+                        21.0100,
+                        52.2280
+                    ],
+                    [
+                        21.0150,
+                        52.2280
+                    ],
+                    [
+                        21.0200,
+                        52.2280
+                    ],
+                    [
+                        21.0250,
+                        52.2280
+                    ],
+                    [
+                        21.0300,
+                        52.2280
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Królewska",
+                "highway": "secondary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0070,
+                        52.2400
+                    ],
+                    [
+                        21.0100,
+                        52.2380
+                    ],
+                    [
+                        21.0140,
+                        52.2360
+                    ],
+                    [
+                        21.0180,
+                        52.2380
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Mokotowska",
+                "highway": "tertiary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0220,
+                        52.2200
+                    ],
+                    [
+                        21.0220,
+                        52.2250
+                    ],
+                    [
+                        21.0220,
+                        52.2300
+                    ],
+                    [
+                        21.0220,
+                        52.2340
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Emilii Plater",
+                "highway": "secondary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0050,
+                        52.2200
+                    ],
+                    [
+                        21.0050,
+                        52.2240
+                    ],
+                    [
+                        21.0050,
+                        52.2280
+                    ],
+                    [
+                        21.0050,
+                        52.2340
+                    ],
+                    [
+                        21.0050,
+                        52.2400
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Wilcza",
+                "highway": "tertiary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0050,
+                        52.2200
+                    ],
+                    [
+                        21.0100,
+                        52.2200
+                    ],
+                    [
+                        21.0150,
+                        52.2200
+                    ],
+                    [
+                        21.0200,
+                        52.2200
+                    ],
+                    [
+                        21.0220,
+                        52.2200
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Hoża",
+                "highway": "tertiary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0050,
+                        52.2240
+                    ],
+                    [
+                        21.0100,
+                        52.2240
+                    ],
+                    [
+                        21.0150,
+                        52.2240
+                    ],
+                    [
+                        21.0200,
+                        52.2250
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "pl. Konstytucji connector",
+                "highway": "tertiary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0100,
+                        52.2200
+                    ],
+                    [
+                        21.0100,
+                        52.2230
+                    ],
+                    [
+                        21.0100,
+                        52.2280
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Bracka",
+                "highway": "residential"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0150,
+                        52.2280
+                    ],
+                    [
+                        21.0160,
+                        52.2310
+                    ],
+                    [
+                        21.0160,
+                        52.2340
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Chmielna",
+                "highway": "pedestrian"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0100,
+                        52.2310
+                    ],
+                    [
+                        21.0140,
+                        52.2310
+                    ],
+                    [
+                        21.0180,
+                        52.2310
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Poznańska",
+                "highway": "tertiary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0000,
+                        52.2340
+                    ],
+                    [
+                        21.0050,
+                        52.2340
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ul. Wspólna",
+                "highway": "tertiary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0050,
+                        52.2400
+                    ],
+                    [
+                        21.0100,
+                        52.2420
+                    ],
+                    [
+                        21.0150,
+                        52.2420
+                    ],
+                    [
+                        21.0180,
+                        52.2420
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "east bypass",
+                "highway": "secondary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0300,
+                        52.2200
+                    ],
+                    [
+                        21.0300,
+                        52.2250
+                    ],
+                    [
+                        21.0300,
+                        52.2280
+                    ],
+                    [
+                        21.0300,
+                        52.2340
+                    ],
+                    [
+                        21.0300,
+                        52.2400
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "south connector",
+                "highway": "tertiary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0220,
+                        52.2200
+                    ],
+                    [
+                        21.0260,
+                        52.2200
+                    ],
+                    [
+                        21.0300,
+                        52.2200
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "north circular",
+                "highway": "secondary"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        21.0070,
+                        52.2400
+                    ],
+                    [
+                        21.0050,
+                        52.2400
+                    ]
+                ]
+            }
+        }
+    ]
+}

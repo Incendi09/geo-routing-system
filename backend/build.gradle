@@ -1,0 +1,83 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group = 'com.sensorbite'
+version = '1.0.0'
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+// Pinned versions for reproducibility across machines
+def jettyVersion = '11.0.18'
+def resteasyVersion = '6.2.6.Final'
+def jacksonVersion = '2.16.0'
+def jtsVersion = '1.19.0'
+def slf4jVersion = '2.0.9'
+def logbackVersion = '1.4.14'
+def junitVersion = '5.10.1'
+
+dependencies {
+    // Embedded Jetty server
+    implementation "org.eclipse.jetty:jetty-server:${jettyVersion}"
+    implementation "org.eclipse.jetty:jetty-servlet:${jettyVersion}"
+    
+    // RESTEasy JAX-RS implementation (Jakarta EE compatible)
+    implementation "org.jboss.resteasy:resteasy-core:${resteasyVersion}"
+    implementation "org.jboss.resteasy:resteasy-jackson2-provider:${resteasyVersion}"
+    implementation "org.jboss.resteasy:resteasy-servlet-initializer:${resteasyVersion}"
+    
+    // Jackson for JSON processing
+    implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
+    implementation "com.fasterxml.jackson.core:jackson-core:${jacksonVersion}"
+    implementation "com.fasterxml.jackson.core:jackson-annotations:${jacksonVersion}"
+    
+    // JTS for geometry operations (intersection checks, distance, etc.)
+    implementation "org.locationtech.jts:jts-core:${jtsVersion}"
+    
+    // Logging
+    implementation "org.slf4j:slf4j-api:${slf4jVersion}"
+    runtimeOnly "ch.qos.logback:logback-classic:${logbackVersion}"
+    
+    // Testing
+    testImplementation "org.junit.jupiter:junit-jupiter:${junitVersion}"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+application {
+    mainClass = 'com.sensorbite.evacroute.Application'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+// Create a fat JAR for easy deployment
+tasks.register('fatJar', Jar) {
+    archiveClassifier = 'all'
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    manifest {
+        attributes 'Main-Class': application.mainClass
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    with jar
+}
+
+// Allow running with: ./gradlew run
+run {
+    // Pass through system properties for configuration
+    systemProperties System.properties
+}

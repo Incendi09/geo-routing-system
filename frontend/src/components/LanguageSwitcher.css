@@ -1,0 +1,26 @@
+.lang-switcher {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-xs) var(--space-sm);
+    background: var(--bg-card);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-full);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.lang-switcher:hover {
+    background: var(--bg-card-hover);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.lang-flag {
+    font-size: 1rem;
+}
+
+.lang-code {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+}

@@ -1,0 +1,55 @@
+{
+    "app": {
+        "title": "Evac Route",
+        "subtitle": "Safe Evacuation Routing"
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About"
+    },
+    "form": {
+        "title": "Route Planning",
+        "start": "Start Point",
+        "startPlaceholder": "52.23, 21.01",
+        "end": "End Point",
+        "endPlaceholder": "52.24, 21.02",
+        "calculate": "Calculate Route",
+        "calculating": "Calculating...",
+        "errors": {
+            "required": "This field is required",
+            "invalidFormat": "Use format: lat, lon (e.g., 52.23, 21.01)"
+        }
+    },
+    "route": {
+        "title": "Route Information",
+        "distance": "Distance",
+        "nodes": "Waypoints",
+        "computeTime": "Compute Time",
+        "riskScore": "Risk Score",
+        "hazardAvoided": "Hazards Avoided",
+        "hazardTraversed": "Hazards Crossed",
+        "noRoute": "No route calculated yet",
+        "safe": "Safe",
+        "risky": "Risky",
+        "moderate": "Moderate"
+    },
+    "map": {
+        "title": "Map View",
+        "layers": {
+            "roads": "Road Network",
+            "floods": "Flood Zones",
+            "route": "Calculated Route"
+        }
+    },
+    "error": {
+        "title": "Error",
+        "noRoute": "No route found between these points",
+        "serverError": "Server error. Please try again.",
+        "networkError": "Network error. Check your connection."
+    },
+    "language": {
+        "switch": "Language",
+        "en": "English",
+        "pl": "Polski"
+    }
+}

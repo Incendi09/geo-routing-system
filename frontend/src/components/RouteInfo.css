@@ -1,0 +1,84 @@
+.route-info {
+    width: 100%;
+}
+
+.info-title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-lg);
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-md);
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+.info-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.info-value {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.info-value.success {
+    color: var(--success);
+}
+
+.info-value.warning {
+    color: var(--warning);
+}
+
+.risk-badge {
+    display: inline-block;
+    padding: var(--space-xs) var(--space-sm);
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+}
+
+.risk-badge.safe {
+    background: var(--success-light);
+    color: var(--success);
+}
+
+.risk-badge.moderate {
+    background: var(--warning-light);
+    color: var(--warning);
+}
+
+.risk-badge.risky {
+    background: var(--danger-light);
+    color: var(--danger);
+}
+
+/* Empty and error states */
+.route-info.empty .empty-message,
+.route-info.error .error-message {
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.route-info.error {
+    border-color: var(--danger);
+}
+
+.error-title {
+    color: var(--danger);
+}
+
+.error-message {
+    color: var(--danger);
+}
